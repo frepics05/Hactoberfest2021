@@ -38,7 +38,7 @@ class LinkedList {
             t = t.next;
             l2 = l2.next;
         }
-        carry = sum/11;
+        carry = sum/10;
         if(carry != 0){
             t.next = new ListNode(carry);
             t = t.next;
